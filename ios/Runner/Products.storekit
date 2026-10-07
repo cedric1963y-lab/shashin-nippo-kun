@@ -1,0 +1,86 @@
+{
+  "identifier" : "SHASHIN_NIPPO",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_failTransactionsEnabled" : false,
+    "_locale" : "ja_JP",
+    "_storefront" : "JPN",
+    "_storeKitErrors" : [
+
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "B7E1A0201CF9000F007C117D",
+      "localizations" : [
+        {
+          "description" : "契約中は日報と写真の上限が外れます。",
+          "displayName" : "プレミアム",
+          "locale" : "ja"
+        }
+      ],
+      "name" : "Premium",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "100",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "B7E1A0211CF9000F007C117D",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "1か月、日報と写真の上限を解除します。",
+              "displayName" : "プレミアム（月額）",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "jp.shashinnippo.app.premium.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Premium Monthly",
+          "subscriptionGroupID" : "B7E1A0201CF9000F007C117D",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1200",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "B7E1A0221CF9000F007C117D",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "1年、日報と写真の上限を解除します。",
+              "displayName" : "プレミアム（年額）",
+              "locale" : "ja"
+            }
+          ],
+          "productID" : "jp.shashinnippo.app.premium.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Premium Yearly",
+          "subscriptionGroupID" : "B7E1A0201CF9000F007C117D",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
